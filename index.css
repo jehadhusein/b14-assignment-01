@@ -1,58 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Inter';
 }
-.container{
-max-width: 1000px;
-width: 100%;
-margin: 0 auto;
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px;
 }
-.common-btn{
-    background-color:#1D4ED8;
+
+.common-btn {
+    background-color: #1D4ED8;
     border-radius: 5px;
     padding: 8px;
     border: none;
     color: white;
     cursor: pointer;
 }
-.common-btn:hover{
-    background-color:#3d6ff7 ;
+
+.common-btn:hover {
+    background-color: #3d6ff7;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-     margin: 10px;
-    padding: 8px;
 }
-.list-item ul{
+
+.list-item ul {
     list-style: none;
     display: flex;
     gap: 15px;
 }
-.list-item ul li a{
-    text-decoration: none; 
-     color: #575757;
 
+.list-item ul li a {
+    text-decoration: none;
+    color: #575757;
 }
-header{
-    background-image: linear-gradient( rgb(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+
+header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
     height: 75vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-     align-items: center;
-     gap: 60px;
-     padding: 70px 0 50px 0;
+    align-items: center;
+    gap: 60px;
+    padding: 70px 0 50px 0;
 }
-.header-content-p{
+
+.header-content-p {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-     color:white;
-     gap: 16px;
-     max-width: 600px;
+    color: white;
+    gap: 16px;
+    max-width: 600px;
+}
+
+.head {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     gap: 20px;
+}
+.card{
+    border:none;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    
+   
+}
+.card img{
+    width:100% ;
+    
+
 }
