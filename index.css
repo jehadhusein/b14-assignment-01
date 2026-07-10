@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+max-width: 1000px;
+width: 100%;
+margin: 0 auto;
+}
+.common-btn{
+    background-color:#1D4ED8;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.common-btn:hover{
+    background-color:#3d6ff7 ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+     margin: 10px;
+    padding: 8px;
+}
+.list-item ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.list-item ul li a{
+    text-decoration: none; 
+     color: #575757;
+
+}
+header{
+    background-image: linear-gradient( rgb(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-content{
+    color:white;
+}
